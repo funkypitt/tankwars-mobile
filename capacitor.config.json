@@ -1,0 +1,15 @@
+{
+  "appId": "com.tankwars.mobile",
+  "appName": "Tank Wars",
+  "webDir": "dist",
+  "android": {
+    "buildOptions": {
+      "signingType": "apksigner"
+    }
+  },
+  "plugins": {
+    "ScreenOrientation": {
+      "defaultOrientation": "landscape"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Initial release — Tank Wars Mobile v1.0.0
+• Full recreation of Tank Wars 3.2 (1992) for mobile
+• 16 weapons, 3 defenses, destructible terrain
+• Local 2-player and online multiplayer via Firebase
+• Touch-optimized controls
