@@ -1138,8 +1138,8 @@ export class Game {
     ctx.fillStyle = COLORS.sky;
     ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-    // Game area background
-    ctx.fillStyle = '#0a0a2e';
+    // Game area background (black like the original)
+    ctx.fillStyle = '#000000';
     ctx.fillRect(0, GAME_TOP, WIDTH, GAME_BOTTOM - GAME_TOP);
 
     // Terrain

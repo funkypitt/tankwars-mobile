@@ -34,6 +34,7 @@ export class Tank {
     // Animation state
     this.falling = false;
     this.fallVelocity = 0;
+    this.fallStartY = 0;
     this.deathTimer = 0;
     this.deathType = null;
 
@@ -138,7 +139,8 @@ export class Tank {
 
   takeFallDamage(fallDistance) {
     if (this.defenses.fall_protect) return;
-    const damage = Math.floor(fallDistance * 0.3);
+    // Original game: ~1 damage per pixel fallen
+    const damage = Math.floor(fallDistance * 0.8);
     if (damage > 0) {
       this.takeDamage(damage);
     }
@@ -156,11 +158,14 @@ export class Tank {
     if (!this.alive) return false;
     const surfaceY = terrain.getSurfaceY(this.x);
     if (this.y < surfaceY - 1) {
-      this.falling = true;
+      if (!this.falling) {
+        this.falling = true;
+        this.fallStartY = this.y;
+      }
       this.fallVelocity += 0.3;
       this.y += this.fallVelocity;
       if (this.y >= surfaceY) {
-        const fallDist = this.fallVelocity * 5;
+        const fallDist = this.y - this.fallStartY;
         this.y = surfaceY;
         this.takeFallDamage(fallDist);
         this.falling = false;

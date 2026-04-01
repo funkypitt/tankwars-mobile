@@ -28,10 +28,10 @@ export const TERRAIN_ROUGHNESS = 3;
 
 // Colors
 export const COLORS = {
-  sky: '#1a1a2e',
-  ground: '#8B6914',
-  groundDark: '#6B4F12',
-  groundLight: '#A67C1A',
+  sky: '#000000',
+  ground: '#00CC00',
+  groundDark: '#009900',
+  groundLight: '#33FF33',
   hud: '#111',
   hudText: '#eee',
   hudBorder: '#444',
