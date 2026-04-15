@@ -9,3 +9,5 @@ android/capacitor-cordova-android-plugins/build/
 release-key.jks
 .DS_Store
 *.idsig
+*.jpg
+*.png
