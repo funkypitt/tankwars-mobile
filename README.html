@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tank Wars Mobile</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 0 1.25rem;
+    line-height: 1.55;
+    color: #222;
+  }
+  h1, h2 { line-height: 1.25; }
+  h1 { margin-bottom: 0.25rem; }
+  h2 { margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 0.25rem; }
+  code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  pre { background: #f6f6f6; padding: 0.75rem 1rem; overflow-x: auto; border-radius: 4px; }
+  ul { padding-left: 1.25rem; }
+  a { color: #2a5db0; }
+</style>
+</head>
+<body>
+
+<h1>Tank Wars Mobile</h1>
+<p><em>Classic artillery game rebuilt for mobile — 2-player local and online.</em></p>
+
+<h2>Overview</h2>
+<p>
+  Tank Wars Mobile is a faithful recreation of the classic DOS artillery game
+  <strong>Tank Wars 3.2 (1992)</strong> by Kenneth Morse, rebuilt from the ground up for mobile
+  touchscreens. Two players take turns aiming their tanks and firing across randomly generated
+  destructible terrain. Judge the angle, power, and wind to land your shots — there's no
+  trajectory preview, so every shot is a test of skill and intuition.
+</p>
+<p>
+  Built as a Vite + Capacitor app; online multiplayer is brokered through Firebase.
+</p>
+
+<h2>Features</h2>
+<ul>
+  <li>16 weapons: lead balls, hand grenades, incinerators, 20 K nukes, 5-megaton nukes, MIRVs, laser blasters, chain reaction inducers (4 variants), sonic blasters, dirt balls, explosive dirt</li>
+  <li>3 defence systems: energy shields, inertia dampeners, repulsers</li>
+  <li>6 wall types: none, sticky, elastic, accelerating, warping, random</li>
+  <li>5 wind levels plus random — from calm to gale-force</li>
+  <li>Destructible terrain with configurable crumbling (0–100 %)</li>
+  <li>Weapon shop between rounds — earn from kills, spend on firepower</li>
+  <li>Synthesised retro sound effects</li>
+  <li>Local 2-player hot-seat on one device</li>
+  <li>Online multiplayer via Firebase (room code or quick match)</li>
+  <li>Touch controls: drag to aim, tap to fire</li>
+</ul>
+
+<h2>Screenshots</h2>
+<p>See the <code>metadata/en-US/</code> folder for store-bound assets.</p>
+
+<h2>Build &amp; install</h2>
+<pre>npm install
+npm run build         # vite build into dist/
+npx cap sync android
+cd android &amp;&amp; ./gradlew assembleRelease
+
+# Optional: run the relay server
+npm run server
+</pre>
+
+<h2>License</h2>
+<p>MIT, per the F-Droid metadata at <code>fdroid-repo/metadata/com.tankwars.mobile.yml</code>.
+No <code>LICENSE</code> file is currently bundled in the source tree.</p>
+<p>This app is a clean-room recreation of the gameplay of the original Tank Wars 3.2 by
+Kenneth Morse (1992); the original DOS sources are not included.</p>
+
+</body>
+</html>

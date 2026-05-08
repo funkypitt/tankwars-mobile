@@ -1,0 +1,34 @@
+[en]
+Classic artillery game rebuilt for mobile. 2-player local and online.
+
+Tank Wars Mobile is a faithful recreation of the classic DOS artillery game Tank Wars 3.2 (1992) by Kenneth Morse, rebuilt from the ground up for mobile touchscreens.
+
+Two players take turns aiming their tanks and firing an arsenal of weapons at each other across randomly generated destructible terrain. Judge the angle, power, and wind to land your shots — there's no trajectory preview, so every shot is a test of skill and intuition.
+
+Play locally hot-seat on one device or online with a friend via Firebase room codes and quick match.
+
+- 16 weapons including nukes, MIRVs, lasers, chain reaction inducers
+- 3 defence systems: shields, inertia dampeners, repulsers
+- 6 wall types, 5 wind levels, configurable terrain crumbling
+- Weapon shop between rounds, earn money from kills
+- Synthesised retro sound effects
+- Local 2-player hot-seat and online multiplayer
+- No ads, no tracking, no in-app purchases
+
+---
+[fr]
+Le classique du jeu d'artillerie reconstruit pour mobile. 2 joueurs en local et en ligne.
+
+Tank Wars Mobile est une recréation fidèle du jeu d'artillerie DOS Tank Wars 3.2 (1992) de Kenneth Morse, reconstruit de zéro pour les écrans tactiles mobiles.
+
+Deux joueurs visent leurs tanks chacun leur tour et se tirent dessus à travers un terrain destructible généré aléatoirement, en jonglant entre 16 armes. Estimez l'angle, la puissance et le vent — pas d'aperçu de trajectoire, chaque tir met votre instinct à l'épreuve.
+
+Jouez en hot-seat local sur un seul appareil ou en ligne avec un ami via codes de salle Firebase et match rapide.
+
+- 16 armes : nukes, MIRVs, lasers, inducteurs de réaction en chaîne
+- 3 systèmes de défense : boucliers, amortisseurs d'inertie, répulseurs
+- 6 types de murs, 5 niveaux de vent, érosion du terrain configurable
+- Boutique d'armes entre les manches, argent gagné aux frags
+- Effets sonores rétro synthétisés
+- 2 joueurs en hot-seat local et multijoueur en ligne
+- Sans pub, sans pistage, sans achats intégrés
