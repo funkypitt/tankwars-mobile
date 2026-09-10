@@ -1022,6 +1022,8 @@ export class Game {
     ctx.fillStyle = '#888';
     ctx.font = '16px monospace';
     ctx.fillText('Based on Tank Wars 3.2 by Kenneth Morse (1992)', WIDTH / 2, 260);
+    ctx.font = '13px monospace';
+    ctx.fillText('Pierre Gallaz \u00b7 developed with Claude Code', WIDTH / 2, 282);
 
     // Tap to start
     const alpha = Math.sin(this.titleTimer * 0.05) * 0.3 + 0.7;

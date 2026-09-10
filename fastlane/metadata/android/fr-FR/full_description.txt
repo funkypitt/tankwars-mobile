@@ -1,0 +1,15 @@
+Tank Wars Mobile est une recréation fidèle du jeu d'artillerie DOS Tank Wars 3.2 (1992) de Kenneth Morse, reconstruit de zéro pour les écrans tactiles mobiles.
+
+Deux joueurs visent leurs tanks chacun leur tour et se tirent dessus à travers un terrain destructible généré aléatoirement, en jonglant entre 16 armes. Estimez l'angle, la puissance et le vent — pas d'aperçu de trajectoire, chaque tir met votre instinct à l'épreuve.
+
+Jouez en hot-seat local sur un seul appareil ou en ligne avec un ami via codes de salle Firebase et match rapide.
+
+- 16 armes : nukes, MIRVs, lasers, inducteurs de réaction en chaîne
+- 3 systèmes de défense : boucliers, amortisseurs d'inertie, répulseurs
+- 6 types de murs, 5 niveaux de vent, érosion du terrain configurable
+- Boutique d'armes entre les manches, argent gagné aux frags
+- Effets sonores rétro synthétisés
+- 2 joueurs en hot-seat local et multijoueur en ligne
+- Sans pub, sans pistage, sans achats intégrés
+
+Pierre Gallaz · développé avec Claude Code
