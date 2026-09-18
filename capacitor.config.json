@@ -1,5 +1,5 @@
 {
-  "appId": "com.tankwars.mobile",
+  "appId": "com.freedomfighter.tankwars",
   "appName": "Tank Wars",
   "webDir": "dist",
   "android": {
