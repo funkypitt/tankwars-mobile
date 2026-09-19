@@ -1,3 +1,5 @@
+![Tank Wars Mobile](docs/banner.png)
+
 # Tank Wars Mobile
 
 **FR** — Tank Wars Mobile est une recréation fidèle du jeu d'artillerie DOS Tank Wars 3.2 (1992) de Kenneth Morse, reconstruite de zéro pour les écrans tactiles. Deux joueurs visent leurs tanks chacun leur tour et se tirent dessus à travers un terrain destructible généré aléatoirement, avec 16 armes, 3 défenses, vent et murs configurables. Jouez en hot-seat sur un seul appareil ou en ligne via un code de salle. Sans pub, sans compte.
@@ -29,3 +31,7 @@ Licence MIT, voir `LICENSE`.
 
 © 2026 Pierre Gallaz. Developed with [Claude Code](https://claude.com/claude-code) (Anthropic).
 MIT licence, see `LICENSE`.
+
+## Captures d'écran
+
+<img src="docs/screenshot-1.png" width="30%"> <img src="docs/screenshot-2.png" width="30%">
