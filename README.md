@@ -2,13 +2,30 @@
 
 # Tank Wars Mobile
 
-**FR** — Tank Wars Mobile est une recréation fidèle du jeu d'artillerie DOS Tank Wars 3.2 (1992) de Kenneth Morse, reconstruite de zéro pour les écrans tactiles. Deux joueurs visent leurs tanks chacun leur tour et se tirent dessus à travers un terrain destructible généré aléatoirement, avec 16 armes, 3 défenses, vent et murs configurables. Jouez en hot-seat sur un seul appareil ou en ligne via un code de salle. Sans pub, sans compte.
+**FR** — Le jeu d'artillerie DOS Tank Wars 3.2 (1992) de Kenneth Morse, refait pour l'écran tactile : angle, puissance, vent, aucun aperçu de trajectoire. 16 armes, 3 défenses, terrain destructible. À deux sur un téléphone, ou en ligne. Sans pub, sans achat.
 
-**EN** — A faithful, clean-room recreation of the classic DOS artillery game Tank Wars 3.2 (1992) by Kenneth Morse, rebuilt for touchscreens: two players take turns aiming and firing across destructible terrain, with 16 weapons, 3 defence systems, wind and wall options. Hot-seat on one device or online via room codes. No ads, no accounts. The original DOS sources are not included.
+**EN** — The DOS artillery game Tank Wars 3.2 (1992) by Kenneth Morse, rebuilt for touchscreens: angle, power, wind, no trajectory preview. 16 weapons, 3 defences, destructible terrain. Hot-seat on one phone, or online. No ads, no purchases. The original DOS sources are not included.
+
+## Key points
+
+- Aim by dragging on the battlefield: sideways for the angle, up and down for power.
+  Tap the weapon name to cycle weapons, then **FIRE**.
+- Players take turns; kills earn money, spent in the weapons shop between rounds.
+- Defences: shields, inertia dampeners, repulsers. Options: 6 wall types, 5 wind
+  levels, terrain crumbling.
+- Online: **Create Room** gives a 4-character code, the other player enters it under
+  **Join Room**. Game state goes through a Firebase Realtime Database.
+- Local play needs no network. No account, no tracking.
+- Sound effects are synthesised; there are no audio files.
+
+## Install
+
+Install the generated APK (`android/app/build/outputs/apk/release/`) on an Android
+device, or grab it from the author's [F-Droid repository](https://funkypitt.github.io/fdroid-repo/).
 
 ## Build
 
-Vite + Capacitor (Android); online multiplayer is brokered through Firebase.
+Vite + Capacitor (Android); online play goes through Firebase.
 
 ```
 npm install
@@ -17,10 +34,6 @@ npx cap sync android
 cd android && ./gradlew assembleRelease
 npm run server         # optional relay server
 ```
-
-## Install
-
-Install the generated APK (`android/app/build/outputs/apk/release/`) on an Android device, or grab it from the author's F-Droid repository.
 
 ## Crédits / Credits
 
